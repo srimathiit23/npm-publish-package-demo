@@ -1,0 +1,32 @@
+{
+  "name": "npm-packaging",
+  "version": "1.0.1",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node test.js"
+  },
+  "author": "Srimathi",
+  "license": "ISC",
+  "description": "Local npm package with Verdaccio integration for testing package publishing",
+  "keywords": [
+    "npm-packaging",
+    "verdaccio",
+    "local-registry",
+    "logger"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srimathiit23/npm-packaging.git"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "dependencies": {
+    "consice-logger": "file:../consice-logger"
+  },
+  "devDependencies": {
+    "verdaccio": "^6.8.0"
+  }
+}

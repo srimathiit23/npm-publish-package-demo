@@ -1,0 +1,6 @@
+node_modules/
+verdaccio/htpasswd
+verdaccio/storage/
+*.tgz
+.DS_Store
+.npmrc
