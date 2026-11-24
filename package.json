@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/srimathiit23/npm-packaging.git"
+    "url": "git+https://github.com/srimathiit23/npm-publish-package-demo.git"
   },
   "publishConfig": {
     "registry": "http://localhost:4873"
